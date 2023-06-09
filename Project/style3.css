@@ -1,0 +1,74 @@
+body{
+  margin:0px;
+  padding:0;
+  background-color:#d9f392;
+  font-family:arial;
+}
+.login{
+  width:200px;
+  height:275px;
+  overflow:hidden;
+   margin:auto;
+  padding:80PX;
+background:#bcdc64;
+border-radius: 25px;
+padding-top: 55px;
+}
+h2{
+  text-align:center;
+  color:rgb(5, 41, 1);
+  padding:20px;
+  margin:30px 50px 0px;
+  font-family:'Times New Roman', Times, serif;
+font-size: xx-large;
+}
+label{
+  color:rgb(40, 84, 16);
+  font-size: 14px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#fname{
+  width:165px;
+  height:20px;
+  border:black;
+  border-radius: 3px;
+  padding-left:8px;
+  
+  
+}
+
+
+#email{
+  width:165px;
+  height:20px;
+  border:black;
+  border-radius: 3px;
+  padding-left:8px;
+}
+  
+#pass{
+ width:165px;
+ height:20px;
+ border:black;
+ border-radius: 3px;
+ padding-left:8px;
+ 
+}
+#cpass{
+  width:165px;
+ height:20px;
+ border:black;
+ border-radius: 3px;
+ padding-left:8px;
+ 
+}
+ #signup{
+ width:165px;
+height:30px;
+border:forestgreen;
+margin: 15px 15px  0px;
+border-radius: 17px;
+padding-left:7px;
+color:rgba(3, 46, 24, 0.867)
+  }

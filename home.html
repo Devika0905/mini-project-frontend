@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Home Page</title>
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            padding: 30px;
+            background: url('data:image/jpeg;base64,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') no-repeat center center fixed;
+            background-size: cover;
+
+        }
+
+        .jumbotron {
+            text-align: center;
+            margin-bottom: 30px;
+            background: url('data:image/jpeg;base64,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') no-repeat center center fixed;
+            background-size: cover;
+        }
+        h1{
+          font-size: xx-large;
+          font-size: 50px;
+          font-weight:bolder;
+          font-family:'Times New Roman', Times, serif;
+          color:rgb(101, 147, 149);
+                }
+        p{
+           color:rgb(101, 147, 149);
+        }
+
+        .btn {
+            margin: 5px;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+          background-color:rgb(101, 147, 149);
+        }
+
+        .signup-btn {
+           
+            display: block;
+            width: 50%;
+            padding: 10px;
+            color: #077676;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size:medium;
+            font-weight: bold;
+            background-color:transparent;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 250px;
+        }
+
+        .login-btn {
+          display: block;
+          width: 50%;
+          padding: 10px;
+          color: #077676;
+          font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          font-size:medium;
+          font-weight: bold;
+          background-color:transparent;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          margin-left: 250px;
+        }
+
+        @media (max-width: 767px) {
+            .jumbotron {
+                margin-bottom: 15px;
+            }
+
+            .btn {
+                font-size: 16px;
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="jumbotron">
+        <h1>Welcome to Our Website</h1>
+        <p>Join us now! Sign up or log in to get started.</p>
+    </div>
+
+    <div class="container text-center">
+        <a href="csignup.html" class="btn btn-lg signup-btn">Sign Up</a>
+        <a href="index.html" class="btn btn-lg login-btn">Login</a>
+    </div>
+
+   
+</body>
+</html>
